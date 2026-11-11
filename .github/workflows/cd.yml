@@ -24,11 +24,11 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: darminivarshitha/fittrack-backend:latest
+          tags: varshithadarmini/fittrack-backend:latest
 
       - name: Build and Push Frontend
         uses: docker/build-push-action@v6
         with:
           context: ./frontend
           push: true
-          tags: darminivarshitha/fittrack-frontend:latest
+          tags: varshithadarmini/fittrack-frontend:latest
